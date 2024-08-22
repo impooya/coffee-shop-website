@@ -8,41 +8,41 @@ interface blogsPosts {
   img: string;
 }
 
+const blogs: blogsPosts[] = [
+  {
+    id: 1,
+    title: "طرز تهیه قهوه دمی با دستگاه اروپرس",
+    date: 21,
+    month: "مرداد",
+    year: "1402",
+    img: "../src/assets/CoffeeShop-Files/blogs/blog-1.png",
+  },
+  {
+    id: 2,
+    title: "یک نوشیدنی هیجان انگیز و پرکالری برای شروع روز",
+    date: 21,
+    month: "مرداد",
+    year: "1402",
+    img: "../src/assets/CoffeeShop-Files/blogs/blog-2.png",
+  },
+  {
+    id: 3,
+    title: "طرز تهیه یک فنجان کافه زینو برزیلی",
+    date: 21,
+    month: "مرداد",
+    year: "1402",
+    img: "../src/assets/CoffeeShop-Files/blogs/blog-3.png",
+  },
+  {
+    id: 4,
+    title: "طرز تهیه قهوه دالگونا مناسب روز‌های کرونایی",
+    date: 21,
+    month: "مرداد",
+    year: "1402",
+    img: "../src/assets/CoffeeShop-Files/blogs/blog-4.png",
+  },
+];
 export default function Blog() {
-  const blogs: blogsPosts[] = [
-    {
-      id: 1,
-      title: "طرز تهیه قهوه دمی با دستگاه اروپرس",
-      date: 21,
-      month: "مرداد",
-      year: "1402",
-      img: "../src/assets/CoffeeShop-Files/blogs/blog-1.png",
-    },
-    {
-      id: 2,
-      title: "یک نوشیدنی هیجان انگیز و پرکالری برای شروع روز",
-      date: 21,
-      month: "مرداد",
-      year: "1402",
-      img: "../src/assets/CoffeeShop-Files/blogs/blog-2.png",
-    },
-    {
-      id: 3,
-      title: "طرز تهیه یک فنجان کافه زینو برزیلی",
-      date: 21,
-      month: "مرداد",
-      year: "1402",
-      img: "../src/assets/CoffeeShop-Files/blogs/blog-3.png",
-    },
-    {
-      id: 4,
-      title: "طرز تهیه قهوه دالگونا مناسب روز‌های کرونایی",
-      date: 21,
-      month: "مرداد",
-      year: "1402",
-      img: "../src/assets/CoffeeShop-Files/blogs/blog-4.png",
-    },
-  ];
   return (
     <>
       <div className="flex flex-col gap-5 md:gap-12">
