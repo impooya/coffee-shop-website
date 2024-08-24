@@ -51,6 +51,7 @@ export default function BlogPosts({
           <img
             src={img}
             alt=""
+            loading="lazy"
             className="absolute w-[299px] h-[187px] rounded-tr-2xl rounded-tl-2xl rounded-br-2xl rounded-bl-4xl"
           />
           <div className="group-hover:visible group-hover:opacity-80 opacity-0 invisible transition-all delay-75 flex justify-center items-center bg-gradient-to-l from-orange-300 to-orange-200 absolute w-full h-0 group-hover:h-full rounded-tr-2xl rounded-tl-2xl rounded-br-2xl rounded-bl-4xl"></div>

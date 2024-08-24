@@ -3,9 +3,10 @@ export default function ContactUs() {
     <>
       <div className="flex flex-wrap lg:flex-nowrap justify-center items-center gap-x-5 gap-y-8 h-auto  text-zinc-700 dark:text-white">
         <img
-          src="../src/assets/CoffeeShop-Files/contact.png"
+          src="./src/assets/CoffeeShop-Files/contact.png"
           alt="contact"
           className="w-[296px] h-[305px] object-cover "
+          loading="lazy"
         />
         <div className="flex flex-col justify-center items-start gap-y-5 lg:gap-y-6">
           <div className="flex flex-col gap-y-0.5 md:gap-y-1.5 ">

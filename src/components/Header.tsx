@@ -117,7 +117,7 @@ export default function Header({
           <nav className="flex justify-center items-center gap-x-5 lg:gap-x-9 h-14">
             <div className="shrink-0">
               <img
-                src="../src/assets/CoffeeShop-Files/app-logo.png"
+                src="./src/assets/CoffeeShop-Files/app-logo.png"
                 alt="logo-coffee"
               />
             </div>
