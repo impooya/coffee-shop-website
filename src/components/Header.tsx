@@ -116,10 +116,7 @@ export default function Header({
         <section className="flex justify-between items-center w-full dark:">
           <nav className="flex justify-center items-center gap-x-5 lg:gap-x-9 h-14">
             <div className="shrink-0">
-              <img
-                src="/src/assets/CoffeeShop-Files/app-logo.png"
-                alt="logo-coffee"
-              />
+              <img src="/CoffeeShop-Files/app-logo.png" alt="logo-coffee" />
             </div>
 
             <ul className="flex gap-x-5 lg:gap-9 gap-5 text-xl text-gray-300 tracking-tightest child-hover:text-orange-300 child:leading-[56px]">

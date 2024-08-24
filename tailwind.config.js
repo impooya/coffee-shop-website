@@ -21,10 +21,9 @@ export default {
     extend: {
       // in extend you can add new proprty style
       backgroundImage: {
-        "home-mobile": "url(./src/assets/CoffeeShop-Files/headerBgMobile.webp)",
-        "home-desktop":
-          "url(./src/assets/CoffeeShop-Files/headerBgDesktop.webp)",
-        "picture-body": "url(./src/assets/CoffeeShop-Files/body-bg.png)",
+        "home-mobile": "url(/CoffeeShop-Files/headerBgMobile.webp)",
+        "home-desktop": "url(/CoffeeShop-Files/headerBgDesktop.webp)",
+        "picture-body": "url(/CoffeeShop-Files/body-bg.png)",
       },
       letterSpacing: {
         tightest: "-0.065em",

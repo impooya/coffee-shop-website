@@ -3,7 +3,7 @@ export default function CartItems() {
     <>
       <div className="flex items-center ">
         <div className="size-[120px] flex-shrink-0">
-          <img src="/src/assets/CoffeeShop-Files/products/p2.png" alt="" />
+          <img src="/CoffeeShop-Files/products/p2.png" alt="" />
         </div>
 
         {/* {Text info Product} */}
@@ -31,7 +31,7 @@ export function CartItemsForMobile() {
     <>
       <div className="flex gap-1 items-center py-5">
         <div className="size-[90px] shrink-0">
-          <img src="/src/assets/CoffeeShop-Files/products/p2.png" alt="" />
+          <img src="/CoffeeShop-Files/products/p2.png" alt="" />
         </div>
         <div className="flex flex-col gap-[6px]">
           <h4 className="font-DanaMedium text-sm text-zinc-700 dark:text-white line-clamp-2">

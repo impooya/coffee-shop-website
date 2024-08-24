@@ -82,7 +82,7 @@
         rgba(0, 0, 0, 0.6) 33.85%,
         rgba(0, 0, 0, 0.1) 100%
       ),
-      url(./src/assets/CoffeeShop-Files/categories/category-right.jpg);
+      url(/CoffeeShop-Files/categories/category-right.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -93,7 +93,7 @@
         rgba(0, 0, 0, 0.6) 33.85%,
         rgba(0, 0, 0, 0.1) 100%
       ),
-      url(./src/assets/CoffeeShop-Files/categories/category-left.jpg);
+      url(/CoffeeShop-Files/categories/category-left.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;

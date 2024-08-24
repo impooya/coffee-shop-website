@@ -53,7 +53,7 @@ export default function CoffeeItems() {
         <div className=" relative">
           <div className="size-32 md:size-[260px]">
             <img
-              src="/src/assets/CoffeeShop-Files/products/p4.png"
+              src="/CoffeeShop-Files/products/p4.png"
               alt="قهوه ترک بن مانو مقدار 250 گرم خط دوم اسم طولانی"
               loading="lazy"
             />
