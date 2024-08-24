@@ -55,6 +55,7 @@ export default function CoffeeItems() {
             <img
               src="../src/assets/CoffeeShop-Files/products/p4.png"
               alt="قهوه ترک بن مانو مقدار 250 گرم خط دوم اسم طولانی"
+              loading="lazy"
             />
           </div>
           <span className="absolute w-10 h-5 lg:w-[54px] lg:h-[30px] bg-orange-300 flex items-center justify-center top-0 rounded-[100px] text-white font-DanaDemiBold text-xs md:text-base md:leading-9">
