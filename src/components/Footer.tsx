@@ -1,7 +1,5 @@
-
 export default function Footer() {
   return (
-
     <>
       <svg className="hidden">
         <symbol
@@ -151,7 +149,7 @@ export default function Footer() {
                 <h3 className="font-DanaDemiBold text-2xl/[28px] md:text-2xl md:leading-7 text-white text-right w-full">
                   دسترسی سریع
                 </h3>
-                <div className="flex  text-gray-300 w-[378px] items-center justify-between mr-4">
+                <div className="flex  text-gray-300 w-full items-center justify-between mr-4">
                   <ul className="flex flex-col gap-y-5 child-hover:text-orange-300 child:transition-all text-base/[28px] md:text-xl  ">
                     <li className="relative after:content-[''] after:block after:bg-gray-85 after:absolute after:w-2 after:h-1 md:after:w-2.5 md:after:h-1 after:top-0 after:bottom-0 after:left-full after:ml-2 md:after:ml-3 after:my-auto after:rounded-3xl after:hover:bg-orange-300 after:transition-colors">
                       <a href="">حریم خصوصی</a>
@@ -288,7 +286,12 @@ export default function Footer() {
             <svg className="w-[100px] h-[22px] rotate-180 dark:text-zinc-800 text-gray-100">
               <use href="#curve"></use>
             </svg>
-            <span onClick={() :void => {window.scrollTo(0, 0)}} className="absolute border-2 border-orange-300 mb-[7px]  bottom-0 right-0 left-0 mx-auto rounded-full w-fit h-fit cursor-pointer">
+            <span
+              onClick={(): void => {
+                window.scrollTo(0, 0);
+              }}
+              className="absolute border-2 border-orange-300 mb-[7px]  bottom-0 right-0 left-0 mx-auto rounded-full w-fit h-fit cursor-pointer"
+            >
               <svg className="size-5 text-zinc-700 dark:text-white">
                 <use href="#chevron-up"></use>
               </svg>
