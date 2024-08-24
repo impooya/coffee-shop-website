@@ -53,7 +53,7 @@ export default function Club() {
         {/*Club Title and Sub Title and diamond img*/}
         <div className="flex justify-center items-center gap-x-3 lg:gap-x-4 xl:gap-x-6 md:shrink-0 ">
           <img
-            src="/src/assets/CoffeeShop-Files/club/diamond.png"
+            src="../public/diamond.png"
             alt="diamond club"
             className="w-[87px] lg:w-[100px] xl:w-[110px]"
           />

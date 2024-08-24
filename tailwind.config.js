@@ -17,7 +17,6 @@ export default {
       "mid-xl": "1100px",
       xl: "1280px",
       // => @media (min-width: 1280px) { ... }
-
     },
     extend: {
       // in extend you can add new proprty style
@@ -37,9 +36,9 @@ export default {
           600: "#967259",
           900: "#634832",
         },
-        gray:{
-          85:"#D9D9D9"
-        }
+        gray: {
+          85: "#D9D9D9",
+        },
       },
       boxShadow: {
         normal: "0px 1px 10px rgba(0, 0, 0, 0.05)",
