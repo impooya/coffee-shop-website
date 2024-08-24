@@ -15,7 +15,7 @@ const blogs: blogsPosts[] = [
     date: 21,
     month: "مرداد",
     year: "1402",
-    img: "./src/assets/CoffeeShop-Files/blogs/blog-1.png",
+    img: "/src/assets/CoffeeShop-Files/blogs/blog-1.png",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const blogs: blogsPosts[] = [
     date: 21,
     month: "مرداد",
     year: "1402",
-    img: "./src/assets/CoffeeShop-Files/blogs/blog-2.png",
+    img: "/src/assets/CoffeeShop-Files/blogs/blog-2.png",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const blogs: blogsPosts[] = [
     date: 21,
     month: "مرداد",
     year: "1402",
-    img: "./src/assets/CoffeeShop-Files/blogs/blog-3.png",
+    img: "/src/assets/CoffeeShop-Files/blogs/blog-3.png",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const blogs: blogsPosts[] = [
     date: 21,
     month: "مرداد",
     year: "1402",
-    img: "./src/assets/CoffeeShop-Files/blogs/blog-4.png",
+    img: "/src/assets/CoffeeShop-Files/blogs/blog-4.png",
   },
 ];
 export default function Blog() {

@@ -217,7 +217,7 @@ export default function SideBar({
         <div className="flex justify-between items-center dark:border-b-white/10 border-b pb-5 border-b-gray-100">
           <div className="w-[155px] h-10 flex  gap-2 ">
             <img
-              src="../src/assets/CoffeeShop-Files/app-logo.png"
+              src="/src/assets/CoffeeShop-Files/app-logo.png"
               alt="logo-coffee"
             />
             <svg className="text-orange-300">

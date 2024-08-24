@@ -27,7 +27,7 @@
   @font-face {
     font-family: "Morabba Light";
     src: local("Morraba Light"),
-      url("/public/fonts/Morabba/woff2/Morabba-Light.woff2") format("woff2");
+      url("/fonts/Morabba/woff2/Morabba-Light.woff2") format("woff2");
     font-display: swap;
   }
 
