@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "قهوه ترک بن مانو مقدار ۲۵۰ گرم",
+    "price": 175000,
+    "discount_percentage": "0.00",
+    "rating": 4,
+    "image": "http://127.0.0.1:8000/media/images/p4.png",
+    "best_seller": false
+  },
+  {
+    "id": 2,
+    "title": "۲ قهوه ترک بن مانو مقدار ۲۵۰ گرم",
+    "price": 0,
+    "discount_percentage": "0.00",
+    "rating": 3,
+    "image": "http://127.0.0.1:8000/media/images/p3.png",
+    "best_seller": false
+  },
+  {
+    "id": 3,
+    "title": "۳ قهوه ترک بن مانو مقدار ۲۵۰ گرم",
+    "price": 175000,
+    "discount_percentage": "22.00",
+    "rating": 5,
+    "image": "http://127.0.0.1:8000/media/images/p1.png",
+    "best_seller": false
+  },
+  {
+    "id": 4,
+    "title": "۴ قهوه ترک بن مانو مقدار ۲۵۰ گرم",
+    "price": 175000,
+    "discount_percentage": "0.00",
+    "rating": 4,
+    "image": "http://127.0.0.1:8000/media/images/p2.png",
+    "best_seller": false
+  },
+  {
+    "id": 5,
+    "title": "قهوه ترک بن مانو مقدار ۲۵۰ گرم ۵",
+    "price": 0,
+    "discount_percentage": "0.00",
+    "rating": 2,
+    "image": "http://127.0.0.1:8000/media/images/p2_93u5COY.png",
+    "best_seller": false
+  },
+  {
+    "id": 6,
+    "title": "قهوه ترک بن مانو مقدار ۲۵۰ گرم 6",
+    "price": 150000,
+    "discount_percentage": "0.50",
+    "rating": 5,
+    "image": "http://127.0.0.1:8000/media/images/p1_YeBKzZI.png",
+    "best_seller": false
+  },
+  {
+    "id": 7,
+    "title": "قهوه ترک بن مانو مقدار ۲۵۰ گرم ۷",
+    "price": 200000,
+    "discount_percentage": "0.10",
+    "rating": 3,
+    "image": "http://127.0.0.1:8000/media/images/p5.png",
+    "best_seller": true
+  },
+  {
+    "id": 8,
+    "title": "قهوه ترک بن مانو مقدار ۲۵۰ گرم ۸",
+    "price": 100000,
+    "discount_percentage": "0.00",
+    "rating": 4,
+    "image": "http://127.0.0.1:8000/media/images/p6.png",
+    "best_seller": true
+  },
+  {
+    "id": 9,
+    "title": "قهوه ترک بن مانو مقدار ۲۵۰ گرم ۹",
+    "price": 170000,
+    "discount_percentage": "0.20",
+    "rating": 5,
+    "image": "http://127.0.0.1:8000/media/images/p7.png",
+    "best_seller": true
+  },
+  {
+    "id": 10,
+    "title": "قهوه ترک بن مانو مقدار ۲۵۰ گرم ۱۰",
+    "price": 140000,
+    "discount_percentage": "0.00",
+    "rating": 2,
+    "image": "http://127.0.0.1:8000/media/images/p8.png",
+    "best_seller": true
+  },
+  {
+    "id": 11,
+    "title": "قهوه ترک بن مانو مقدار ۲۵۰ گرم ۱۱",
+    "price": 250000,
+    "discount_percentage": "0.70",
+    "rating": 2,
+    "image": "http://127.0.0.1:8000/media/images/p5_aopi9Ya.png",
+    "best_seller": true
+  },
+  {
+    "id": 12,
+    "title": "قهوه ترک بن مانو مقدار ۲۵۰ گرم ۱۲",
+    "price": 210000,
+    "discount_percentage": "0.40",
+    "rating": 4,
+    "image": "http://127.0.0.1:8000/media/images/p8_4op2jch.png",
+    "best_seller": true
+  }
+]
