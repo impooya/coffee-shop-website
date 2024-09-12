@@ -88,30 +88,29 @@ export default function BestSellingProducts() {
         >
           {/* Your slides go here */}
           <SwiperSlide>
-            <CoffeeItems />
+            <CoffeeItems img={"/CoffeeShop-Files/products/p1.png"} />
           </SwiperSlide>
           <SwiperSlide>
-            <CoffeeItems />
+            <CoffeeItems img={"/CoffeeShop-Files/products/p2.png"} />
           </SwiperSlide>
           <SwiperSlide>
-            <CoffeeItems />
+            <CoffeeItems img={"/CoffeeShop-Files/products/p3.png"} />
           </SwiperSlide>
           <SwiperSlide>
-            <CoffeeItems />
+            <CoffeeItems img={"/CoffeeShop-Files/products/p4.png"} />
           </SwiperSlide>
           <SwiperSlide>
-            <CoffeeItems />
+            <CoffeeItems img={"/CoffeeShop-Files/products/p5.png"} />
           </SwiperSlide>
           <SwiperSlide>
-            <CoffeeItems />
+            <CoffeeItems img={"/CoffeeShop-Files/products/p6.png"} />
           </SwiperSlide>
           <SwiperSlide>
-            <CoffeeItems />
+            <CoffeeItems img={"/CoffeeShop-Files/products/p7.png"} />
           </SwiperSlide>
           <SwiperSlide>
-            <CoffeeItems />
+            <CoffeeItems img={"/CoffeeShop-Files/products/p8.png"} />
           </SwiperSlide>
-          {/* ... more SwiperSlide components */}
         </Swiper>
       </div>
     </>

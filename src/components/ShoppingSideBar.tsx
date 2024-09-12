@@ -39,15 +39,14 @@ export default function ShoppingSideBar({
           <div className="flex flex-col ">
             <div className="scroll-bar-style flex flex-col overflow-auto divide-y divide-gray-100 dark:divide-white/10 max-h-[400px] ">
               {/*shopping cart items*/}
-              <CartItemsForMobile />
-              <CartItemsForMobile />
-              <CartItemsForMobile />
-              <CartItemsForMobile />
-              <CartItemsForMobile />
-              <CartItemsForMobile />
-              <CartItemsForMobile />
-              <CartItemsForMobile />
-              <CartItemsForMobile />
+              <CartItemsForMobile img={"/CoffeeShop-Files/products/p1.png"} />
+              <CartItemsForMobile img={"/CoffeeShop-Files/products/p2.png"} />
+              <CartItemsForMobile img={"/CoffeeShop-Files/products/p3.png"} />
+              <CartItemsForMobile img={"/CoffeeShop-Files/products/p4.png"} />
+              <CartItemsForMobile img={"/CoffeeShop-Files/products/p5.png"} />
+              <CartItemsForMobile img={"/CoffeeShop-Files/products/p6.png"} />
+              <CartItemsForMobile img={"/CoffeeShop-Files/products/p7.png"} />
+              <CartItemsForMobile img={"/CoffeeShop-Files/products/p8.png"} />
             </div>
           </div>
         </div>

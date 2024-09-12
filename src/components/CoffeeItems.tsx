@@ -7,7 +7,7 @@ interface Star {
   onIcon: boolean;
 }
 
-export default function CoffeeItems() {
+export default function CoffeeItems({ img }: { img: string }) {
   const [valuRate, setValueRate] = useState<number>(0);
 
   // Create an array of stars with their properties
@@ -53,7 +53,7 @@ export default function CoffeeItems() {
         <div className=" relative">
           <div className="size-32 md:size-[260px]">
             <img
-              src="/CoffeeShop-Files/products/p4.png"
+              src={img}
               alt="قهوه ترک بن مانو مقدار 250 گرم خط دوم اسم طولانی"
               loading="lazy"
             />

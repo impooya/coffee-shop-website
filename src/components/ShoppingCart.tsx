@@ -73,11 +73,14 @@ export default function ShoppingCart({ isOpenCart }: { isOpenCart: boolean }) {
             </div>
             {/* chosen products for buy */}
             <div className="scroll-bar-style flex flex-col divide-y child:py-5 dark:divide-white/5 border-t-gray-100 overflow-y-auto  max-h-[470px] ">
-              <CartItems />
-              <CartItems />
-              <CartItems />
-              <CartItems />
-              <CartItems />
+              <CartItems img={"/CoffeeShop-Files/products/p1.png"} />
+              <CartItems img={"/CoffeeShop-Files/products/p2.png"} />
+              <CartItems img={"/CoffeeShop-Files/products/p3.png"} />
+              <CartItems img={"/CoffeeShop-Files/products/p4.png"} />
+              <CartItems img={"/CoffeeShop-Files/products/p5.png"} />
+              <CartItems img={"/CoffeeShop-Files/products/p6.png"} />
+              <CartItems img={"/CoffeeShop-Files/products/p7.png"} />
+              <CartItems img={"/CoffeeShop-Files/products/p8.png"} />
             </div>
           </div>
           {/* Total Price */}

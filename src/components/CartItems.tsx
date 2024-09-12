@@ -1,9 +1,9 @@
-export default function CartItems() {
+export default function CartItems({ img }: { img: string }) {
   return (
     <>
       <div className="flex items-center ">
         <div className="size-[120px] flex-shrink-0">
-          <img src="/CoffeeShop-Files/products/p2.png" alt="" />
+          <img src={img} alt="" />
         </div>
 
         {/* {Text info Product} */}
@@ -26,12 +26,12 @@ export default function CartItems() {
   );
 }
 
-export function CartItemsForMobile() {
+export function CartItemsForMobile({ img }: { img: string }) {
   return (
     <>
       <div className="flex gap-1 items-center py-5">
         <div className="size-[90px] shrink-0">
-          <img src="/CoffeeShop-Files/products/p2.png" alt="" />
+          <img src={img} alt="" />
         </div>
         <div className="flex flex-col gap-[6px]">
           <h4 className="font-DanaMedium text-sm text-zinc-700 dark:text-white line-clamp-2">
