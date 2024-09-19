@@ -2,7 +2,8 @@
 
 `🚩 Note:this description is subject to change in the future !!`
 
-**Demo:** [CoffeeShop](https://coffee-shop-website-alpha.vercel.app/)
+**Demo On Vercel App:** [CoffeeShop](https://coffee-shop-website-alpha.vercel.app/)
+**Demo On Liara App:** [CoffeeShop](https://coffee-shop-fa.liara.run/)
 
 This project marks my initial foray into front-end web development, showcasing my proficiency in [Vite](https://vitejs.dev/) ,[Reactjs](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/) and other frameworks. The user interface for this project was designed by the [SabzLearn](https://sabzlearn.ir) website and taught by instructor Mr. Abadi, while I converted the design into code myself.
 
